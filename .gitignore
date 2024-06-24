@@ -1,0 +1,6 @@
+.vscode
+build
+third_party
+log.txt
+*.log
+*.bin
