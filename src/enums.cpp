@@ -12,7 +12,6 @@ std::string to_string(ActivationType activation_type)
     default:
         return "UNKNOWN";
     }
-
 }
 std::string to_string(ModelType modelType)
 {

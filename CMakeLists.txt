@@ -23,7 +23,6 @@ add_subdirectory(third_party/ggml)
 # set(SPM_ENABLE_TCMALLOC OFF CACHE BOOL "chatglm: disable tcmalloc by default")
 # include_directories(third_party/sentencepiece/src)
 # add_subdirectory(third_party/sentencepiece)
-
 if (GGML_CUBLAS)
     add_compile_definitions(GGML_USE_CUBLAS)
     set(CUDA_ARCHITECTURES "52;61;70;75;80;86" CACHE STRING "chatglm: cuda architectures to compile")
